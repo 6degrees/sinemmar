@@ -1,0 +1,197 @@
+
+:root{
+    --bs-body-font-family:'Montserrat', sans-serif, 'Tajawal', sans-serif;
+}
+
+.local-primary {
+    background-color: #883B88;
+    border-radius: 0 !important;
+}
+
+.local-primary:hover {
+    background-color: #7e6a7e;
+    border-radius: 0 !important;
+}
+.underline {
+    text-decoration:underline;
+}
+.card-background {
+    background-color: #ECECEC;
+    border-color: #ECECEC;
+    border-radius: 0 !important;
+}
+.card-hidden-title-text {
+    position: absolute;   
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.card-hidden-subtitle-text {
+    position: absolute;   
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.card-active-title-text{
+    position: absolute;   
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: white;
+    width: 100%;
+    height: 50%;
+}
+.card-active-subtitle-text{
+    position: absolute;   
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: white;
+    width: 100%;
+    height: 50%;
+}
+.card-shrink-image:hover:after {
+    opacity: 1;
+}
+.card-shrink-image:hover .card-hidden-title-text {
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+.card-shrink-image:hover .card-hidden-subtitle-text {
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+    text-align: right;
+}
+.text-line:hover,
+.text-line:focus {
+    box-shadow: 0 0 0px 1000px #ffffff inset !important;
+    
+}
+.vertical-line {
+    border-left: 2px solid #4D4646;
+} 
+
+.google-map{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.full-width-hr{
+    width: 100%;
+    background-color: #949494;
+    height: 20px;
+}
+
+
+#footerLogoBackground {
+    padding-top: 7%;
+    background:url(../images/footer-image-new.svg) no-repeat right bottom; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #footerLogoBackground { 
+        background-size: 70% 70%;    
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #footerLogoBackground { 
+        background-size: 50% 60%;    
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #footerLogoBackground { 
+        background-size: 50% 70%;    
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #footerLogoBackground { 
+        background-size: 50% 100%;    
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #footerLogoBackground { 
+        background-size: 50% 100%;    
+    } 
+}
+
+
+
+
+/* .black-layer {
+    position:absolute;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    color:white;
+    bottom:0;
+    left:0;
+    z-index:5;
+} */
+/* .hovered-image {
+    position:relative;
+    width: 80%;
+    height: 500px;
+} */
+/* .project-div{
+    position:relative;
+    width: 97%;
+    height: 500px;
+}
+.project-hovered-image {
+    position:relative;
+    width: 50%;
+    height: 450px;
+}
+.image-full-dimensions {
+    width: 100%;
+    height: 100%
+} */
+/* .hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.nopadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+ }
+ 
+ .mo{
+    margin-left: 95%;
+ }
+ .po{
+    margin-left: 50%;
+ }
+ 
+ 
+.text-black{
+    text-decoration: none;
+}
+
+
+
+          
