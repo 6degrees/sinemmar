@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,11 +21,9 @@
     />
   </head>
   <body>
-    
       <div class="container" id="mainDiv">
-
         <nav class="navbar navbar-expand-lg " id="navbar">
-          <div class="container" dir="rtl">
+          <div class="container">
             <div class="navbar-brand visible-xs-block">
               <a href="#">
                 <img
@@ -53,23 +51,22 @@
             <div
               class="collapse navbar-collapse position-relative"
               id="navbarSupportedContent"
-              dir="rtl"
             >
               <ul
-                class="navbar-nav me-auto mb-2 mb-lg-0 text-black p-0 text-center gap-3"
+                class="navbar-nav ms-auto mb-2 mb-lg-0 text-black p-0 text-center gap-3"
                 
               >
                 <li class="nav-item">
-                  <a class="nav-link" href="#aboutUsSection">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#servicesSection">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#projectsSection">Projects</a>
+                  <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contactUsSection">Contact Us</a>
+                  <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
   
                 <li class="nav-item">
@@ -87,18 +84,7 @@
           </div>
         </nav>
 
-      <div class="row flex-lg-row-reverse align-items-center pt-5">
-        <div class="col d-none d-sm-block mb-2">
-          <img
-            src="assets/images/Asset 2.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Sinemmar"
-            width="340"
-            height="566"
-            loading="lazy"
-          />
-        </div>
-
+      <div class="row align-items-center py-5">
         <div class="col col-sm-7 col-md-7">
           <h2 class="fw-bold lh-1 mb-2 pb-4">
             <span style="color: #883b88">Sinnemar</span>
@@ -116,12 +102,31 @@
             >
           </div>
         </div>
+        <div class="col d-none d-sm-block mb-2">
+          <img
+            src="assets/images/Asset 2.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Sinemmar"
+            width="340"
+            height="566"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
 
-    <div class="bg-light" id="aboutUsSection">
+    <div class="bg-light py-5" id="aboutUsSection">
+      <div class="position-relative anchor" style="top:-190px; visibility:none" id="about"></div>
       <div class="container g-5 py-5">
         <div class="row align-items-center">
+          <div class="col d-none d-sm-block">
+            <img
+              src="assets/images/about.png"
+              alt="Sinemmar"
+              width="100%"
+              loading="lazy"
+            />
+          </div>
           <div class="col col-lg-8 col-md-8 col-sm-12">
             <h2 class="textalign fw-bold lh-1 mb-3 pb-4">
               <span class="underline">Story</span>
@@ -137,19 +142,13 @@
             <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
           </div>
 
-          <div class="col d-none d-sm-block">
-            <img
-              src="assets/images/about.png"
-              alt="Sinemmar"
-              width="100%"
-              loading="lazy"
-            />
-          </div>
+          
         </div>
       </div>
     </div>
 
-    <div class="container pt-5 pb-5" id="servicesSection">
+    <div class="container py-5 border-bottom" id="servicesSection">
+      <div class="position-relative anchor" style="top:-190px; visibility:none" id="services"></div>
       <h2 class="fw-bold pb-4">
         <span class="underline">Services</span>
       </h2>
@@ -158,8 +157,8 @@
         our services to the same level of beauty, genius and perfection in the
         palace built by Sinemmar, The Architect.
       </p>
-      <div class="row g-4 pt-3 row-cols-1 row-cols-md-3">
-        <div class="col col-sm-12">
+      <div class="row g-5 py-3 row-cols-1 row-cols-md-3 justify-content-center">
+        <div class="col">
           <div class="card h-100 card-background">
             <div class="card-body">
               <h5 class="card-title1">
@@ -187,8 +186,7 @@
           </div>
         </div>
 
-
-        <div class="col col-xs-12 col-sm-12">
+        <div class="col">
           <div class="card h-100 card-background">
             <div class="card-body">
               <h5 class="card-title1">
@@ -213,7 +211,7 @@
           </div>
         </div>
 
-        <div class="col col-xs-12">
+        <div class="col">
           <div class="card h-100 card-background">
             <div class="card-body">
               <h5 class="card-title1">
@@ -238,11 +236,8 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row g-4 pt-4 row-cols-1 row-cols-md-3 justify-content-center">
-
-        <div class="col col-xs-12">
+        <div class="col">
           <div class="card h-100 card-background">
             <div class="card-body">
               <h5 class="card-title1">
@@ -269,7 +264,7 @@
           </div>
         </div>
 
-        <div class="col col-xs-12 col-sm-12">
+        <div class="col">
           <div class="card h-100 card-background">
             <div class="card-body">
               <h5 class="card-title1">
@@ -297,9 +292,12 @@
           </div>
         </div>
       </div>
+
+
     </div>
 
-    <div class="container pb-5 pt-2" id="projectsSection">
+    <div class="container py-5 g-0" id="projectsSection">
+      <div class="position-relative anchor" style="top:-190px; visibility:none" id="projects"></div>
       <h2 class="fw-bold pb-4">
         <span class="underline">Projects</span>
       </h2>
@@ -401,7 +399,8 @@
       </div>
     </div>
 
-    <div class="bg-light pb-5" id="contactUsSection">
+    <div class="bg-light py-5" id="contactUsSection">
+      <div class="position-relative anchor" style="top:-190px; visibility:none" id="contact"></div>
       <div class="container">
         <h2 class="textalign fw-bold lh-1 pt-5 mt-5 ">
           <span class="underline">Contact Us</span>
